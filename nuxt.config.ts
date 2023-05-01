@@ -26,7 +26,7 @@ export default defineNuxtConfig({
                 }
             ],
             link: []
-        }
+        },
     },
     modules: [
         '@nuxt/content'
