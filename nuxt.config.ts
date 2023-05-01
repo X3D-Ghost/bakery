@@ -32,6 +32,9 @@ export default defineNuxtConfig({
             // link: []
         },
     },
+    experimental: {
+        payloadExtraction: false,
+    },
     modules: [
         '@nuxt/content'
     ],
