@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         },
     },
     app: {
-        // baseURL: '/bakery/',
+        baseURL: '/',
         body: {
             lang: 'ru'
         },
