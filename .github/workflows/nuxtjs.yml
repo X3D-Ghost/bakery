@@ -63,8 +63,8 @@ jobs:
           static_site_generator: nuxt
       - name: Restore cache
         uses: actions/cache@v3
-        env:
-          NUXT_APP_BASE_URL: "/bakery/"
+#        env:
+#          NUXT_APP_BASE_URL: "/bakery/"
 #          APP_BASE_URL: "/bakery/"
         with:
           path: |
@@ -76,8 +76,8 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
-        env:
-          NUXT_APP_BASE_URL: "/bakery/"
+#        env:
+#          NUXT_APP_BASE_URL: "/bakery/"
         run: ${{ steps.detect-package-manager.outputs.manager }} run generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
