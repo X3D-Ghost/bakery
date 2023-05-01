@@ -4,10 +4,10 @@
         <div class="row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Career</a></li>
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Terms</a></li>
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Privacy</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="/career">Career</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="/terms">Terms</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="/privacy">Privacy</a></li>
                 </ol>
             </div>
             <div class="col-lg-6 px-5 text-end">
@@ -26,9 +26,9 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="/" class="navbar-brand ms-4 ms-lg-0">
+        <nuxt-link href="/" class="navbar-brand ms-4 ms-lg-0">
             <h1 class="text-primary m-0">Baker</h1>
-        </a>
+        </nuxt-link>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,8 +72,6 @@ onMounted(()=> {
 
     window.addEventListener('scroll', ()=> {
         window.requestAnimationFrame(() => {
-            // console.log(window.scrollY)
-            // console.log({topBarHeight})
             navbar.classList.toggle('bg-dark', window.scrollY > 0)
             navbar.style.top = window.scrollY > 0 ? 0 : `${topBarHeight}px`
         })
