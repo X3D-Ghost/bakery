@@ -62,7 +62,8 @@ jobs:
       - name: Restore cache
         uses: actions/cache@v3
         env:
-          NUXT_BASE_URL: /${{ github.event.repository.name }}/
+          NUXT_BASE_URL: '/bakery/'
+          APP_BASE_URL: '/bakery/'
         with:
           path: |
             dist
