@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     css: [
         "@fortawesome/fontawesome-free/css/all.css",
-        "~/assets/scss/main.scss",
+        "@/assets/scss/main.scss",
     ],
     vite: {
         css: {
