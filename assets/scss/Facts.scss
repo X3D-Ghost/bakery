@@ -1,0 +1,25 @@
+/*** Facts ***/
+.fact-item {
+  transition: .5s;
+}
+
+.fact-item:hover {
+  margin-top: -10px;
+  background: #FFFFFF !important;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+
+/*** About ***/
+.img-twice::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: var(--primary);
+  border: 25px solid var(--light);
+  border-radius: 6px;
+  z-index: -1;
+}
