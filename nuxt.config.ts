@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         }
     },
     app: {
-        baseURL: '/bakery/',
+        // baseURL: '/bakery/',
         body: {
             lang: 'ru'
         },
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
                     content: 'это просто находка для тех, кто ищет, где бы выпить чашечку кофе. Очень уютное место. — Если что, то в Ульяновске есть и другие булочные.'
                 }
             ],
-            link: []
+            // link: []
         },
     },
     modules: [
