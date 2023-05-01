@@ -4,7 +4,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <!--                <img src="..." class="d-block w-100" alt="...">-->
-                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                    <img class="img-fluid" src="/img/carousel-1.jpg" alt="">
                     <div class="carousel-content">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -20,7 +20,7 @@
                 </div>
                 <div class="carousel-item">
 <!--                    <img src="..." class="d-block w-100" alt="...">-->
-                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                    <img class="img-fluid" src="/img/carousel-2.jpg" alt="">
                     <div class="carousel-content">
                         <div class="container">
                             <div class="row justify-content-start">

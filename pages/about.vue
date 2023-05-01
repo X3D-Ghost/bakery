@@ -53,7 +53,7 @@
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="/img/team-1.jpg" alt="">
                             <div class="team-text">
                                 <div class="team-title">
                                     <h5>Full Name</h5>

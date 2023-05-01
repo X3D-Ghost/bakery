@@ -52,10 +52,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row img-twice position-relative h-100">
                         <div class="col-6">
-                            <img class="img-fluid rounded" src="img/service-1.jpg" alt="">
+                            <img class="img-fluid rounded" src="/img/service-1.jpg" alt="">
                         </div>
                         <div class="col-6 align-self-end">
-                            <img class="img-fluid rounded" src="img/service-2.jpg" alt="">
+                            <img class="img-fluid rounded" src="/img/service-2.jpg" alt="">
                         </div>
                     </div>
                 </div>
