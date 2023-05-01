@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     },
     app: {
         baseURL: '/',
-        body: {
+        /*body: {
             lang: 'ru'
         },
         head: {
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
                 }
             ],
             // link: []
-        },
+        },*/
     },
     experimental: {
         payloadExtraction: false,
