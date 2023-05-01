@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     css: [
-        // "@fortawesome/fontawesome-free/css/all.css",
+        "@fortawesome/fontawesome-free/css/all.css",
         "~/assets/scss/main.scss",
     ],
     vite: {
@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     },
     app: {
         baseURL: '/',
-        /*body: {
+        body: {
             lang: 'ru'
         },
         head: {
@@ -29,16 +29,15 @@ export default defineNuxtConfig({
                     content: 'это просто находка для тех, кто ищет, где бы выпить чашечку кофе. Очень уютное место. — Если что, то в Ульяновске есть и другие булочные.'
                 }
             ],
-            // link: []
-        },*/
+        },
     },
     experimental: {
         payloadExtraction: false,
     },
-    modules: [
+    /*modules: [
         '@nuxt/content'
     ],
     content: {
         // https://content.nuxtjs.org/api/configuration
-    }
+    }*/
 })
