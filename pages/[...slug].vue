@@ -13,7 +13,7 @@
                     <!--                    <h1>{{ doc.title }}</h1>-->
                     <div class="row g5">
                       <div class="col-6">
-                        <img class="img-fluid rounded" :src="`/img/${doc.imgSrc}`" :alt="doc.title">
+                        <img class="img-fluid rounded" :src="`img/${doc.imgSrc}`" :alt="doc.title">
                       </div>
                       <div class="col-6">
                         <!--                            <p class="text-primary text-uppercase mb-2">// Продукты</p>-->
