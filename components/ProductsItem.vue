@@ -2,7 +2,7 @@
 const props = defineProps({
     itemData: Object
 })
-const imgSrc = `img/${computed(()=>props.itemData.imgSrc).value}`
+const imgSrc = `/img/${computed(()=>props.itemData.imgSrc).value}`
 </script>
 
 <template>

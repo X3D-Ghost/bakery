@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // const imgSrc = `/img/${computed(()=>doc.imgSrc).value}`
-const imgSrc = (url) => `img/${url}`
+const imgSrc = (url) => `/img/${url}`
 </script>
 
 <template>
