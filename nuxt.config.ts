@@ -20,7 +20,7 @@ export default defineNuxtConfig({
             lang: 'ru'
         },
         head: {
-            title: 'Булочная',
+            // title: 'Булочная',
             meta: [
                 {
                     name: "viewport",
@@ -34,15 +34,28 @@ export default defineNuxtConfig({
                     content: 'это просто находка для тех, кто ищет, где бы выпить чашечку кофе. Очень уютное место. — Если что, то в Ульяновске есть и другие булочные.'
                 }
             ],
+            link: [
+                {
+                    href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap',
+                    rel: 'stylesheet'
+                }
+            ]
         },
     },
     experimental: {
         payloadExtraction: false,
     },
-    /*modules: [
-        '@nuxt/content'
+    modules: [
+        '@nuxt/content',
+        'nuxt-unhead',
     ],
     content: {
         // https://content.nuxtjs.org/api/configuration
-    }*/
+    },
+    runtimeConfig: {
+        public: {
+            siteName: 'Булочная',
+            titleSeparator: '-',
+        }
+    },
 })

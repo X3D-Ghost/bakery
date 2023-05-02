@@ -58,10 +58,10 @@
     </main>
 </template>
 
-<script>
-export default {
-    name: "contact"
-}
+<script setup>
+useHead({
+    title: 'Контакты'
+})
 </script>
 
 <style scoped>

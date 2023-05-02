@@ -9,7 +9,9 @@
 </template>
 
 <script setup>
-
+useHead({
+    title: 'Наши услуги'
+})
 </script>
 
 <style scoped>

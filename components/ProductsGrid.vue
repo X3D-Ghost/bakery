@@ -1,5 +1,5 @@
 <script setup>
-const items = [
+/*const items = [
     {
         id: 1,
 				title: 'Cake',
@@ -30,11 +30,15 @@ const items = [
         content: 'Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos',
         imgSrc: 'product-3.jpg'
     },
-]
+]*/
+
+defineProps({
+    items: Array
+})
 </script>
 
 <template>
-	<div class="row g4">
+	<div class="row g4 products__grid">
 			<ProductsItem v-for="item in items" :key="item.id" :item-data="item" />
 	</div>
 </template>

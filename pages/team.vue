@@ -79,10 +79,10 @@
     </main>
 </template>
 
-<script>
-export default {
-    name: "team"
-}
+<script setup>
+useHead({
+    title: 'Наша команда'
+})
 </script>
 
 <style scoped>

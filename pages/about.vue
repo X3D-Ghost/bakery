@@ -17,9 +17,19 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
                             <p class="text-primary text-uppercase mb-2">// About Us</p>
-                            <h1 class="display-6 mb-4">We Bake Every Item From The Core Of Our Hearts</h1>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                            <h1 class="display-6 mb-4">Мы выпекаем каждый предмет из глубины наших сердец</h1>
+                            <p>Мы создаём наши предметы с любовью, которой мы хотим поделиться с другими.
+                                Это наша страсть.
+                            </p>
+                            <p>Не важно, что вы делаете, вы должны делать это с любовью.</p>
+                            <p>Именно так мы создаём свои изделия.</p>
+                            <p>Наша продукция не раз была отмечена как «превосходная» и «интересная».</p>
+                            <p>Мы знаем, что наши изделия пользуются спросом у покупателей.</p>
+                            <p>Они находят своё место в сердцах людей.</p>
+                            <p>
+                                Мы не можем ждать, пока вы будете заказывать, поэтому мы предлагаем вам сразу несколько способов оплаты.
+                                Наложенный платеж.
+                            </p>
                             <div class="row g-2 mb-4">
                                 <div class="col-sm-6">
                                     <i class="fa fa-check text-primary me-2"></i>Quality Products
@@ -123,10 +133,10 @@
 
 </template>
 
-<script>
-export default {
-    name: "about"
-}
+<script setup>
+useHead({
+    title: 'Абоут'
+})
 </script>
 
 <style scoped>

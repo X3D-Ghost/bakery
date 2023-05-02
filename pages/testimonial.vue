@@ -68,10 +68,10 @@
     </main>
 </template>
 
-<script>
-export default {
-    name: "testimonial"
-}
+<script setup>
+useHead({
+    title: 'Отзывы'
+})
 </script>
 
 <style scoped>

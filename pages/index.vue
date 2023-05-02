@@ -219,8 +219,6 @@
     </main>
 </template>
 
-<script>
-</script>
 <script setup >
 import HeroCarousel from "../components/HeroCarousel";
 import Facts from "~/components/Facts.vue";

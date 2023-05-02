@@ -16,10 +16,10 @@
     <!-- 404 End -->
 </template>
 
-<script>
-export default {
-    name: "404"
-}
+<script setup>
+useHead({
+    title: 'Страница не найдена'
+})
 </script>
 
 <style scoped>
