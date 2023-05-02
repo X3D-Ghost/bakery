@@ -2,7 +2,7 @@
 const props = defineProps({
     itemData: Object
 })
-// const imgSrc = `/img/${computed(()=>props.itemData.imgSrc).value}`
+const imgSrc = `/img/${computed(()=>props.itemData.imgSrc).value}`
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const props = defineProps({
                 <span>{{ props.itemData.description }}</span>
             </div>
             <div class="position-relative mt-auto">
-                <img class="img-fluid" :src="`img/${props.itemData.imgSrc}`" :alt="props.itemData.title">
+                <img class="img-fluid" :src="imgSrc" :alt="props.itemData.title">
                 <div class="product-overlay">
                     <nuxt-link class="btn btn-lg-square btn-outline-light rounded-circle" :to="props.itemData._path">
                         <i class="fa fa-eye text-primary" />
